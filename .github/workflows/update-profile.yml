@@ -1,0 +1,83 @@
+name: Update GitHub Profile README
+
+on:
+  schedule:
+    # Run daily at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    # Allow manual triggering
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/update-profile.yml'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      
+      - name: Update README with dynamic content
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            
+            try {
+              console.log('Updating README...');
+              
+              const readmePath = path.join(process.env.GITHUB_WORKSPACE, 'README.md');
+              let readmeContent = fs.readFileSync(readmePath, 'utf8');
+              
+              // Get the GitHub username from the repository
+              const username = context.repo.owner;
+              
+              // Replace placeholder username with actual username
+              const updatedContent = readmeContent.replace(/USERNAME/g, username);
+              
+              // Add timestamp
+              const timestamp = new Date().toISOString();
+              const statusComment = `<!-- Last updated: ${timestamp} -->`;
+              
+              let finalContent = updatedContent;
+              if (finalContent.includes('<!-- Last updated:')) {
+                finalContent = finalContent.replace(/<!-- Last updated:.*?-->/g, statusComment);
+              } else {
+                finalContent += '\n\n' + statusComment;
+              }
+              
+              // Write updated content
+              fs.writeFileSync(readmePath, finalContent);
+              
+              console.log('README updated successfully');
+              
+            } catch (error) {
+              console.error('Error updating README:', error.message);
+              // Don't fail the workflow
+            }
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          if [ -n "$(git status --porcelain)" ]; then
+            git add README.md
+            git commit -m "Auto-update GitHub profile README"
+            git push
+            echo "Changes committed and pushed"
+          else
+            echo "No changes to commit"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
