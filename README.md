@@ -83,8 +83,6 @@ fun_fact: My homelab has more uptime than my sleep schedule
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lucawalz&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=lucawalz&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117)
-
 </div>
 
 ## 📫 Let's Connect
