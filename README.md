@@ -93,13 +93,11 @@ I'm always interested in discussing:
 - 🤖 AI/ML applications
 - 🏠 Homelab setups (swap war stories!)
 
-Feel free to reach out for collaborations, opportunities, or just a good tech chat!
+Feel free to reach out for collaborations, opportunities, or just a good chat!
 
 ---
 
 <div align="center">
-
-*"Code is like humor. When you have to explain it, it's bad." – Cory House*
 
 ![Profile Views](https://komarev.com/ghpvc/?username=lucawalz&color=blueviolet&style=flat-square)
 
