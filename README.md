@@ -1,17 +1,17 @@
 <div align="center">
 
-# 👋 Hi, I'm Luca.
+# Hi, I'm Luca.
 
 ### Computer Science Student @ HdM Stuttgart | Backend & Cloud Engineer
 
-*Building scalable systems, tinkering with distributed architectures, and occasionally breaking my homelab* 🔧
+*Building scalable systems, tinkering with distributed architectures, and occasionally breaking my homelab*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luca-walz)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lucawalz)
 
 </div>
 
-## 🚀 About Me
+## About Me
 
 ```yaml
 current_role: IBM Research Lab Intern
@@ -21,15 +21,15 @@ status: Open to Backend Development & Cloud Engineering opportunities
 fun_fact: My homelab has more uptime than my sleep schedule
 ```
 
-## 💼 What I Do
+## What I Do
 
-- 🔨 **Backend Engineering** — Building APIs and microservices, mostly with Java & Spring Boot.
-- ☁️ **Cloud Architecture** — Designing infrastructure on AWS that scales (and doesn't break the bank).
-- 🤖 **AI/ML Research** — Exploring deep learning applications at IBM.
-- 🏗️ **Infrastructure as Code** — Using Terraform and Docker to keep deployments sane.
-- 🔬 **Homelab** — Running my own mini datacenter for learning and experiments.
+- **Backend Engineering** — Building APIs and microservices, mostly with Java & Spring Boot.
+- **Cloud Architecture** — Designing infrastructure on AWS that scales (and doesn't break the bank).
+- **AI/ML Research** — Exploring deep learning applications at IBM.
+- **Infrastructure as Code** — Using Terraform and Docker to keep deployments sane.
+- **Homelab** — Running my own mini datacenter for learning and experiments.
 
-## 🛠️ Technologies
+## Technologies
 
 <details open>
 <summary><b>Languages & Frameworks</b></summary>
@@ -77,7 +77,7 @@ fun_fact: My homelab has more uptime than my sleep schedule
 
 </details>
 
-## 📊 GitHub Activity
+## GitHub Activity
 
 <div align="center">
 
@@ -85,13 +85,13 @@ fun_fact: My homelab has more uptime than my sleep schedule
 
 </div>
 
-## 📫 Let's Connect
+## Let's Connect
 
 I'm always up for a chat about:
-- 💡 Backend architecture & patterns
-- ☁️ Cloud-native tech
-- 🤖 AI/ML experiments
-- 🏠 Homelab setups (always happy to swap war stories)
+- Backend architecture & patterns
+- Cloud-native tech
+- AI/ML experiments
+- Homelab setups (always happy to swap war stories)
 
 Feel free to reach out if you want to collaborate or just say hi!
 
