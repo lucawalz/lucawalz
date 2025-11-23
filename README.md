@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hey there, I'm Luca Walz
+# 👋 Hi, I'm Luca.
 
 ### Computer Science Student @ HdM Stuttgart | Backend & Cloud Engineer
 
@@ -23,13 +23,13 @@ fun_fact: My homelab has more uptime than my sleep schedule
 
 ## 💼 What I Do
 
-- 🔨 **Backend Engineering** — Building robust APIs and microservices with Java & Spring Boot
-- ☁️ **Cloud Architecture** — Designing and deploying scalable infrastructure on AWS
-- 🤖 **AI/ML Research** — Exploring deep learning applications at IBM Research Lab
-- 🏗️ **Infrastructure as Code** — Automating everything with Terraform and Docker
-- 🔬 **Homelab Projects** — Running my own mini datacenter (because why not?)
+- 🔨 **Backend Engineering** — Building APIs and microservices, mostly with Java & Spring Boot.
+- ☁️ **Cloud Architecture** — Designing infrastructure on AWS that scales (and doesn't break the bank).
+- 🤖 **AI/ML Research** — Exploring deep learning applications at IBM.
+- 🏗️ **Infrastructure as Code** — Using Terraform and Docker to keep deployments sane.
+- 🔬 **Homelab** — Running my own mini datacenter for learning and experiments.
 
-## 🛠️ Tech Arsenal
+## 🛠️ Technologies
 
 <details open>
 <summary><b>Languages & Frameworks</b></summary>
@@ -87,13 +87,13 @@ fun_fact: My homelab has more uptime than my sleep schedule
 
 ## 📫 Let's Connect
 
-I'm always interested in discussing:
-- 💡 Backend architecture patterns
-- ☁️ Cloud-native solutions
-- 🤖 AI/ML applications
-- 🏠 Homelab setups (swap war stories!)
+I'm always up for a chat about:
+- 💡 Backend architecture & patterns
+- ☁️ Cloud-native tech
+- 🤖 AI/ML experiments
+- 🏠 Homelab setups (always happy to swap war stories)
 
-Feel free to reach out for collaborations, opportunities, or just a good chat!
+Feel free to reach out if you want to collaborate or just say hi!
 
 ---
 
