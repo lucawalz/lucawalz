@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Luca.
+# Hi, I'm Luca
 
 ### Computer Science Student @ HdM Stuttgart | Backend & Cloud Engineer
 
@@ -13,7 +13,7 @@
 ## About Me
 
 ```yaml
-current_role: IBM Research Lab Intern
+current_role: Computer Science Student
 interests: [AI/ML, IoT, Distributed Systems, Cloud Native]
 location: Stuttgart, Germany
 status: Open to Backend Development & Cloud Engineering opportunities
@@ -24,7 +24,7 @@ fun_fact: My homelab has more uptime than my sleep schedule
 
 - **Backend Engineering** — Building APIs and microservices, mostly with Java & Spring Boot.
 - **Cloud Architecture** — Designing infrastructure on AWS that scales (and doesn't break the bank).
-- **AI/ML Research** — Exploring deep learning applications at IBM.
+- **AI/ML** — Exploring deep learning and building ML-powered applications.
 - **Infrastructure as Code** — Using Terraform and Docker to keep deployments sane.
 - **Homelab** — Running my own mini datacenter for learning and experiments.
 
@@ -87,6 +87,7 @@ fun_fact: My homelab has more uptime than my sleep schedule
 ## Let's Connect
 
 I'm always up for a chat about:
+
 - Backend architecture & patterns
 - Cloud-native tech
 - AI/ML experiments
