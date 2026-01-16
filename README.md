@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Luca
+# Hi, I'm Luca 👋
 
 ### Computer Science Student @ HdM Stuttgart | Backend & Cloud Engineer
 
@@ -9,6 +9,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luca-walz)
 
 </div>
+
+---
 
 ## About Me
 
@@ -23,66 +25,28 @@ fun_fact: My homelab has more uptime than my sleep schedule
 ## What I Do
 
 - **Backend Engineering** — Building APIs and microservices, mostly with Java & Spring Boot.
-- **Cloud Architecture** — Designing infrastructure on AWS that scales (and doesn't break the bank).
+- **Cloud Architecture** — Designing infrastructure that scales (and doesn't break the bank).
 - **AI/ML** — Exploring deep learning and building ML-powered applications.
 - **Infrastructure as Code** — Using Terraform and Docker to keep deployments sane.
 - **Homelab** — Running my own mini datacenter for learning and experiments.
 
 ## Technologies
 
-<details open>
-<summary><b>Languages & Frameworks</b></summary>
-<br>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,py,cpp,ts,react,docker,kubernetes" height="50" alt="tech stack row 1" />
+</div>
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
-</details>
-
-<details open>
-<summary><b>Cloud & DevOps</b></summary>
-<br>
-
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![NixOS](https://img.shields.io/badge/NixOS-5277C3?style=for-the-badge&logo=nixos&logoColor=white)
-
-</details>
-
-<details open>
-<summary><b>Databases & Data</b></summary>
-<br>
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-
-</details>
-
-<details open>
-<summary><b>AI/ML & IoT</b></summary>
-<br>
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-
-</details>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=terraform,linux,nix,postgres,mongodb,pytorch,tensorflow,raspberrypi" height="50" alt="tech stack row 2" />
+</div>
 
 ## GitHub Activity
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lucawalz&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117)
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucawalz/lucawalz/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lucawalz/lucawalz/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/lucawalz/lucawalz/output/pacman-contribution-graph.svg">
+</picture>
 
 ## Let's Connect
 
@@ -94,13 +58,3 @@ I'm always up for a chat about:
 - Homelab setups (always happy to swap war stories)
 
 Feel free to reach out if you want to collaborate or just say hi!
-
----
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=lucawalz&color=blueviolet&style=flat-square)
-
-</div>
-
-<!-- Last updated: 2026-01-16T01:01:14.986Z -->
