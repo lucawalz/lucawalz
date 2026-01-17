@@ -58,3 +58,6 @@ I'm always up for a chat about:
 - Homelab setups (always happy to swap war stories)
 
 Feel free to reach out if you want to collaborate or just say hi!
+
+
+<!-- Last updated: 2026-01-17T00:58:33.393Z -->
