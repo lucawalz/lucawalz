@@ -10,8 +10,6 @@
 
 </div>
 
----
-
 I'm a backend and cloud engineer who likes working across the stack, from the APIs and services down to the infrastructure they run on. Lately that has mostly meant Kubernetes, NixOS, and GitOps: a homelab I run entirely from Git and a bachelor thesis on autonomous cluster remediation with LLM agents. Outside of software I tinker with robotics and IoT, usually with the 3D printer running and a hardware project on the bench, a drone being the next one. I read a lot too, a steady mix of systems books and fiction, and I'm always happy to pick up a new tool or language when a project calls for it.
 
 **Languages:** German (native), English (C2)
@@ -30,16 +28,20 @@ I'm a backend and cloud engineer who likes working across the stack, from the AP
 ## Tech
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=go,py,java,ts,spring,react,nix" height="50" alt="languages and frameworks" />
+  <img src="https://skillicons.dev/icons?i=go,py,java,ts,spring,react,nix,linux" height="50" alt="languages and runtimes" />
 </div>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=kubernetes,docker,terraform,linux,postgres,redis,prometheus,grafana,raspberrypi" height="50" alt="infrastructure and data" />
+  <img src="https://skillicons.dev/icons?i=kubernetes,docker,terraform,postgres,redis,prometheus,grafana,raspberrypi" height="50" alt="infrastructure and data" />
 </div>
 
 ## GitHub Activity
 
-<img alt="pacman contribution graph" src="https://raw.githubusercontent.com/lucawalz/lucawalz/output/pacman-contribution-graph.svg">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucawalz/lucawalz/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lucawalz/lucawalz/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/lucawalz/lucawalz/output/pacman-contribution-graph.svg">
+</picture>
 
 ## Connect
 
