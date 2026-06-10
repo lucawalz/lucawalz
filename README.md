@@ -2,9 +2,9 @@
 
 # Hi, I'm Luca 👋
 
-### Computer Science Student @ HdM Stuttgart | Backend & Cloud Engineer
+### Computer Science Student @ HdM Stuttgart · Backend & Cloud Engineer
 
-*Building scalable systems, tinkering with distributed architectures, and occasionally breaking my homelab*
+*Deploy now, panic later.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luca-walz)
 
@@ -12,32 +12,29 @@
 
 ---
 
-## About Me
+I'm a backend and cloud engineer who likes working across the stack, from the APIs and services down to the infrastructure they run on. Lately that has mostly meant Kubernetes, NixOS, and GitOps: a homelab I run entirely from Git and a bachelor thesis on autonomous cluster remediation with LLM agents. Outside of software I tinker with robotics and IoT, usually with the 3D printer running and a hardware project on the bench, a drone being the next one. I read a lot too, a steady mix of systems books and fiction, and I'm always happy to pick up a new tool or language when a project calls for it.
 
-```yaml
-current_role: Computer Science Student
-interests: [AI/ML, IoT, Distributed Systems, Cloud Native]
-location: Stuttgart, Germany
-status: Open to Backend Development & Cloud Engineering opportunities
-fun_fact: My homelab has more uptime than my sleep schedule
-```
+**Languages:** German (native), English (C2)
 
-## What I Do
+## What I'm Building
 
-- **Backend Engineering** — Building APIs and microservices, mostly with Java & Spring Boot.
-- **Cloud Architecture** — Designing infrastructure that scales (and doesn't break the bank).
-- **AI/ML** — Exploring deep learning and building ML-powered applications.
-- **Infrastructure as Code** — Using Terraform and Docker to keep deployments sane.
-- **Homelab** — Running my own mini datacenter for learning and experiments.
+- **[vigil](https://github.com/lucawalz/vigil)** · Python, Go  
+  My bachelor thesis: a multi-agent system that diagnoses and repairs faults in a Kubernetes cluster on its own. The LLM agents act through typed MCP tools and are reversible by construction, with Flux GitOps and NixOS generations giving every repair a clean way back.
+- **[bedrock](https://github.com/lucawalz/bedrock)** · Nix  
+  A bare-metal Kubernetes homelab that lives entirely in Git. Three NixOS nodes run K3s, and Flux reconciles the cluster from the repository instead of by hand.
+- **[horizon](https://github.com/lucawalz/horizon)** · Go  
+  The active half of the homelab: a controller that watches K3s for resource pressure and bursts onto Hetzner Cloud over a ZeroTier overlay, then tears the node down once the spike passes.
+- **[sentio-systems](https://github.com/lucawalz/sentio-systems)** · Java, TypeScript, Python  
+  A wildlife and weather monitoring platform. Raspberry Pi field devices feed sensor and camera data to a Spring Boot backend, where AI classifies the animals down to the bird species, with a React dashboard and an agentic chatbot to explore it all.
 
-## Technologies
+## Tech
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,py,cpp,ts,react,docker,kubernetes" height="50" alt="tech stack row 1" />
+  <img src="https://skillicons.dev/icons?i=go,py,java,ts,spring,react,nix" height="50" alt="languages and frameworks" />
 </div>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=terraform,linux,nix,postgres,mongodb,pytorch,tensorflow,raspberrypi" height="50" alt="tech stack row 2" />
+  <img src="https://skillicons.dev/icons?i=kubernetes,docker,terraform,linux,postgres,redis,prometheus,grafana,raspberrypi" height="50" alt="infrastructure and data" />
 </div>
 
 ## GitHub Activity
@@ -48,16 +45,6 @@ fun_fact: My homelab has more uptime than my sleep schedule
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/lucawalz/lucawalz/output/pacman-contribution-graph.svg">
 </picture>
 
-## Let's Connect
+## Connect
 
-I'm always up for a chat about:
-
-- Backend architecture & patterns
-- Cloud-native tech
-- AI/ML experiments
-- Homelab setups (always happy to swap war stories)
-
-Feel free to reach out if you want to collaborate or just say hi!
-
-
-<!-- Last updated: 2026-06-10T02:30:14.675Z -->
+Always happy to talk backend, infrastructure, homelabs, robotics, or whatever you are building. Reach me on [LinkedIn](https://www.linkedin.com/in/luca-walz).
