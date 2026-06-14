@@ -21,7 +21,7 @@ I'm a backend and cloud engineer who likes working across the stack, from the AP
 - **[bedrock](https://github.com/lucawalz/bedrock)** · Nix  
   A bare-metal Kubernetes homelab that lives entirely in Git. Three NixOS nodes run K3s, and Flux reconciles the cluster from the repository instead of by hand.
 - **[horizon](https://github.com/lucawalz/horizon)** · Go  
-  The active half of the homelab: a controller that watches K3s for resource pressure and bursts onto Hetzner Cloud over a ZeroTier overlay, then tears the node down once the spike passes.
+  The active half of the homelab: a controller that watches K3s for resource pressure and bursts onto Hetzner Cloud over a WireGuard overlay, then tears the node down once the spike passes.
 - **[sentio-systems](https://github.com/lucawalz/sentio-systems)** · Java, TypeScript, Python  
   A wildlife and weather monitoring platform. Raspberry Pi field devices feed sensor and camera data to a Spring Boot backend, where AI classifies the animals down to the bird species, with a React dashboard and an agentic chatbot to explore it all.
 
