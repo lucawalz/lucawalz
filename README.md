@@ -7,6 +7,7 @@
 *Deploy now, panic later.*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luca-walz)
+[![Website](https://img.shields.io/badge/lucawalz.dev-1f5f8b?style=for-the-badge&logo=googlechrome&logoColor=white)](https://lucawalz.dev)
 
 </div>
 
