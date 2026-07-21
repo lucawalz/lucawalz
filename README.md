@@ -1,8 +1,8 @@
 <div align="center">
 
-# Hi, I'm Luca 👋
+# Hi, I'm Luca
 
-### Computer Science Student @ HdM Stuttgart · Backend & Cloud Engineer
+### Backend & Cloud Engineer | CS Student @ HdM Stuttgart
 
 *Deploy now, panic later.*
 
@@ -11,19 +11,19 @@
 
 </div>
 
-I'm a backend and cloud engineer who likes working across the stack, from the APIs and services down to the infrastructure they run on. Lately that has mostly meant Kubernetes, NixOS, and GitOps: a homelab I run entirely from Git and a bachelor thesis on autonomous cluster remediation with LLM agents. Outside of software I tinker with robotics and IoT, usually with the 3D printer running and a hardware project on the bench, a drone being the next one. I read a lot too, a steady mix of systems books and fiction, and I'm always happy to pick up a new tool or language when a project calls for it.
+I'm a backend and cloud engineer who likes working across the stack, from the APIs and services down to the infrastructure they run on. Lately that has mostly meant Kubernetes, NixOS, and GitOps: a homelab I run entirely from Git and a bachelor thesis on autonomous cluster remediation with LLM agents. Before the homelab took over my evenings, I spent ten months at IBM on backend services and the testing around them. Outside of software I tinker with robotics and IoT, usually with the 3D printer running and a hardware project on the bench, a drone being the next one. I read a lot too, a steady mix of systems books and fiction, and I'm always happy to pick up a new tool or language when a project calls for it.
 
 **Languages:** German (native), English (C2)
 
 ## What I'm Building
 
-- **[vigil](https://github.com/lucawalz/vigil)** · Python, Go  
+- **[vigil](https://github.com/lucawalz/vigil)** - Python, Go  
   My bachelor thesis: a multi-agent system that diagnoses and repairs faults in a Kubernetes cluster on its own. The LLM agents act through typed MCP tools and are reversible by construction, with Flux GitOps and NixOS generations giving every repair a clean way back.
-- **[bedrock](https://github.com/lucawalz/bedrock)** · Nix  
+- **[bedrock](https://github.com/lucawalz/bedrock)** - Nix  
   A bare-metal Kubernetes homelab that lives entirely in Git. Three NixOS nodes run K3s, and Flux reconciles the cluster from the repository instead of by hand.
-- **[horizon](https://github.com/lucawalz/horizon)** · Go  
+- **[horizon](https://github.com/lucawalz/horizon)** - Go  
   The active half of the homelab: a controller that watches K3s for resource pressure and bursts onto Hetzner Cloud over a WireGuard overlay, then tears the node down once the spike passes.
-- **[sentio-systems](https://github.com/lucawalz/sentio-systems)** · Java, TypeScript, Python  
+- **[sentio-systems](https://github.com/lucawalz/sentio-systems)** - Java, TypeScript, Python  
   A wildlife and weather monitoring platform. Raspberry Pi field devices feed sensor and camera data to a Spring Boot backend, where AI classifies the animals down to the bird species, with a React dashboard and an agentic chatbot to explore it all.
 
 ## Tech
